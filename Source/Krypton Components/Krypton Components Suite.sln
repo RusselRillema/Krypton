@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27729.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentFactory.Krypton.Docking", "ComponentFactory.Krypton.Docking\ComponentFactory.Krypton.Docking.csproj", "{E00FF125-CB44-480B-847E-7B3D27E481EB}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentFactory.Krypton.Toolkit", "ComponentFactory.Krypton.Toolkit\ComponentFactory.Krypton.Toolkit.csproj", "{96ECAECC-54F8-4AA5-8591-B443C2D9565F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentFactory.Krypton.Workspace", "ComponentFactory.Krypton.Workspace\ComponentFactory.Krypton.Workspace.csproj", "{9144BA04-155B-4B66-B85A-9A89AA93F7D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{21FEC6A4-AA66-4B03-83A5-A5F04F4EBE99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9144BA04-155B-4B66-B85A-9A89AA93F7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9144BA04-155B-4B66-B85A-9A89AA93F7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9144BA04-155B-4B66-B85A-9A89AA93F7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21FEC6A4-AA66-4B03-83A5-A5F04F4EBE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FEC6A4-AA66-4B03-83A5-A5F04F4EBE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FEC6A4-AA66-4B03-83A5-A5F04F4EBE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FEC6A4-AA66-4B03-83A5-A5F04F4EBE99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

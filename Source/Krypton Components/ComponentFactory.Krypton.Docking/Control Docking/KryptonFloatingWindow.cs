@@ -65,7 +65,7 @@ namespace ComponentFactory.Krypton.Docking
         public KryptonFloatingWindow(Form owner, KryptonFloatspace floatspace)
         {
             // Set the owner of the window so that minimizing the owner will do the same to this
-            Owner = owner;
+            //Owner = owner;
 
             // Set correct form settings for a floating window
             TopLevel = true;
@@ -129,7 +129,7 @@ namespace ComponentFactory.Krypton.Docking
                             Point offset = new Point(screenPos.X - Location.X, screenPos.Y - Location.Y);
 
                             // Do not intercept message if inside the max/close buttons
-                            if (!HitTestMaxButton(offset) && !HitTestCloseButton(offset))
+                            if (!HitTestMaxButton(offset) && !HitTestCloseButton(offset) && !HitTestMinButton(offset) && !HitTestButtonSpec(offset))
                             {
                                 // Capture the mouse until the mouse us is received and gain focus so we look active
                                 Capture = true;

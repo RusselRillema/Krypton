@@ -164,9 +164,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanelFill)).BeginInit();
             this.kryptonPanelFill.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonNavigator)).BeginInit();
+            this.kryptonNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPageToolkit)).BeginInit();
             this.kryptonPageToolkit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonNavigatorToolkit)).BeginInit();
+            this.kryptonNavigatorToolkit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPage1)).BeginInit();
             this.kryptonPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPage2)).BeginInit();
@@ -222,7 +224,7 @@
             this.kryptonPageRibbon,
             this.kryptonPageApplicatons});
             this.kryptonNavigator.Panel.PanelBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.PanelAlternate;
-            this.kryptonNavigator.SelectedIndex = 0;
+            this.kryptonNavigator.SelectedIndex = 1;
             this.kryptonNavigator.Size = new System.Drawing.Size(644, 386);
             this.kryptonNavigator.StateCommon.Bar.BarPaddingOutside = new System.Windows.Forms.Padding(0, 0, 0, 10);
             this.kryptonNavigator.StateCommon.Bar.CheckButtonGap = 5;
@@ -243,7 +245,7 @@
             this.kryptonPageToolkit.LastVisibleSet = true;
             this.kryptonPageToolkit.MinimumSize = new System.Drawing.Size(50, 50);
             this.kryptonPageToolkit.Name = "kryptonPageToolkit";
-            this.kryptonPageToolkit.Size = new System.Drawing.Size(527, 384);
+            this.kryptonPageToolkit.Size = new System.Drawing.Size(478, 384);
             this.kryptonPageToolkit.Text = "Toolkit";
             this.kryptonPageToolkit.TextTitle = "";
             this.kryptonPageToolkit.ToolTipTitle = "Page ToolTip";
@@ -264,7 +266,7 @@
             this.kryptonPage1,
             this.kryptonPage2});
             this.kryptonNavigatorToolkit.SelectedIndex = 0;
-            this.kryptonNavigatorToolkit.Size = new System.Drawing.Size(492, 320);
+            this.kryptonNavigatorToolkit.Size = new System.Drawing.Size(443, 320);
             this.kryptonNavigatorToolkit.StateCommon.HeaderGroup.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
             this.kryptonNavigatorToolkit.TabIndex = 0;
             this.kryptonNavigatorToolkit.Text = "kryptonNavigator1";
@@ -315,7 +317,7 @@
             this.kryptonPage1.LastVisibleSet = true;
             this.kryptonPage1.MinimumSize = new System.Drawing.Size(50, 50);
             this.kryptonPage1.Name = "kryptonPage1";
-            this.kryptonPage1.Size = new System.Drawing.Size(492, 293);
+            this.kryptonPage1.Size = new System.Drawing.Size(443, 284);
             this.kryptonPage1.Text = "Component Examples";
             this.kryptonPage1.ToolTipTitle = "Page ToolTip";
             this.kryptonPage1.UniqueName = "11B6F5673ADC4D0611B6F5673ADC4D06";
@@ -325,7 +327,7 @@
             this.linkKryptonTreeView.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonTreeView.Location = new System.Drawing.Point(159, 262);
             this.linkKryptonTreeView.Name = "linkKryptonTreeView";
-            this.linkKryptonTreeView.Size = new System.Drawing.Size(124, 20);
+            this.linkKryptonTreeView.Size = new System.Drawing.Size(173, 29);
             this.linkKryptonTreeView.StateCommon.AdjacentGap = 5;
             this.linkKryptonTreeView.TabIndex = 25;
             this.linkKryptonTreeView.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonTreeView.Values.Image")));
@@ -338,7 +340,7 @@
             this.linkKryptonInputBox.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonInputBox.Location = new System.Drawing.Point(334, 199);
             this.linkKryptonInputBox.Name = "linkKryptonInputBox";
-            this.linkKryptonInputBox.Size = new System.Drawing.Size(123, 20);
+            this.linkKryptonInputBox.Size = new System.Drawing.Size(171, 29);
             this.linkKryptonInputBox.StateCommon.AdjacentGap = 5;
             this.linkKryptonInputBox.TabIndex = 35;
             this.linkKryptonInputBox.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonInputBox.Values.Image")));
@@ -351,7 +353,7 @@
             this.linkKryptonTaskDialog.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonTaskDialog.Location = new System.Drawing.Point(334, 241);
             this.linkKryptonTaskDialog.Name = "linkKryptonTaskDialog";
-            this.linkKryptonTaskDialog.Size = new System.Drawing.Size(134, 20);
+            this.linkKryptonTaskDialog.Size = new System.Drawing.Size(188, 29);
             this.linkKryptonTaskDialog.StateCommon.AdjacentGap = 5;
             this.linkKryptonTaskDialog.TabIndex = 37;
             this.linkKryptonTaskDialog.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonTaskDialog.Values.Image")));
@@ -364,7 +366,7 @@
             this.linkKryptonMessageBox.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonMessageBox.Location = new System.Drawing.Point(334, 220);
             this.linkKryptonMessageBox.Name = "linkKryptonMessageBox";
-            this.linkKryptonMessageBox.Size = new System.Drawing.Size(143, 20);
+            this.linkKryptonMessageBox.Size = new System.Drawing.Size(200, 29);
             this.linkKryptonMessageBox.StateCommon.AdjacentGap = 5;
             this.linkKryptonMessageBox.TabIndex = 36;
             this.linkKryptonMessageBox.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonMessageBox.Values.Image")));
@@ -377,7 +379,7 @@
             this.linkKryptobTrackBar.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptobTrackBar.Location = new System.Drawing.Point(4, 261);
             this.linkKryptobTrackBar.Name = "linkKryptobTrackBar";
-            this.linkKryptobTrackBar.Size = new System.Drawing.Size(121, 20);
+            this.linkKryptobTrackBar.Size = new System.Drawing.Size(168, 29);
             this.linkKryptobTrackBar.StateCommon.AdjacentGap = 5;
             this.linkKryptobTrackBar.TabIndex = 12;
             this.linkKryptobTrackBar.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptobTrackBar.Values.Image")));
@@ -390,7 +392,7 @@
             this.linkKryptonGroupBox.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonGroupBox.Location = new System.Drawing.Point(334, 93);
             this.linkKryptonGroupBox.Name = "linkKryptonGroupBox";
-            this.linkKryptonGroupBox.Size = new System.Drawing.Size(129, 20);
+            this.linkKryptonGroupBox.Size = new System.Drawing.Size(180, 29);
             this.linkKryptonGroupBox.StateCommon.AdjacentGap = 5;
             this.linkKryptonGroupBox.TabIndex = 30;
             this.linkKryptonGroupBox.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonGroupBox.Values.Image")));
@@ -403,7 +405,7 @@
             this.linkKryptonWrapLabel.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonWrapLabel.Location = new System.Drawing.Point(4, 198);
             this.linkKryptonWrapLabel.Name = "linkKryptonWrapLabel";
-            this.linkKryptonWrapLabel.Size = new System.Drawing.Size(133, 20);
+            this.linkKryptonWrapLabel.Size = new System.Drawing.Size(186, 29);
             this.linkKryptonWrapLabel.StateCommon.AdjacentGap = 5;
             this.linkKryptonWrapLabel.TabIndex = 9;
             this.linkKryptonWrapLabel.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonWrapLabel.Values.Image")));
@@ -416,7 +418,7 @@
             this.linkKryptonSeparator.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonSeparator.Location = new System.Drawing.Point(334, 30);
             this.linkKryptonSeparator.Name = "linkKryptonSeparator";
-            this.linkKryptonSeparator.Size = new System.Drawing.Size(128, 20);
+            this.linkKryptonSeparator.Size = new System.Drawing.Size(178, 29);
             this.linkKryptonSeparator.StateCommon.AdjacentGap = 5;
             this.linkKryptonSeparator.TabIndex = 27;
             this.linkKryptonSeparator.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonSeparator.Values.Image")));
@@ -429,7 +431,7 @@
             this.kryptonLinkLabel2.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.kryptonLinkLabel2.Location = new System.Drawing.Point(159, 219);
             this.kryptonLinkLabel2.Name = "kryptonLinkLabel2";
-            this.kryptonLinkLabel2.Size = new System.Drawing.Size(159, 20);
+            this.kryptonLinkLabel2.Size = new System.Drawing.Size(225, 29);
             this.kryptonLinkLabel2.StateCommon.AdjacentGap = 5;
             this.kryptonLinkLabel2.TabIndex = 23;
             this.kryptonLinkLabel2.Values.Image = ((System.Drawing.Image)(resources.GetObject("kryptonLinkLabel2.Values.Image")));
@@ -442,7 +444,7 @@
             this.kryptonLinkLabel1.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.kryptonLinkLabel1.Location = new System.Drawing.Point(159, 198);
             this.kryptonLinkLabel1.Name = "kryptonLinkLabel1";
-            this.kryptonLinkLabel1.Size = new System.Drawing.Size(159, 20);
+            this.kryptonLinkLabel1.Size = new System.Drawing.Size(225, 29);
             this.kryptonLinkLabel1.StateCommon.AdjacentGap = 5;
             this.kryptonLinkLabel1.TabIndex = 22;
             this.kryptonLinkLabel1.Values.Image = ((System.Drawing.Image)(resources.GetObject("kryptonLinkLabel1.Values.Image")));
@@ -455,7 +457,7 @@
             this.linkKryptonDomainUpDown.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonDomainUpDown.Location = new System.Drawing.Point(159, 156);
             this.linkKryptonDomainUpDown.Name = "linkKryptonDomainUpDown";
-            this.linkKryptonDomainUpDown.Size = new System.Drawing.Size(165, 20);
+            this.linkKryptonDomainUpDown.Size = new System.Drawing.Size(234, 29);
             this.linkKryptonDomainUpDown.StateCommon.AdjacentGap = 5;
             this.linkKryptonDomainUpDown.TabIndex = 20;
             this.linkKryptonDomainUpDown.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonDomainUpDown.Values.Image")));
@@ -468,7 +470,7 @@
             this.linkKryptonBreadCrumb.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonBreadCrumb.Location = new System.Drawing.Point(159, 177);
             this.linkKryptonBreadCrumb.Name = "linkKryptonBreadCrumb";
-            this.linkKryptonBreadCrumb.Size = new System.Drawing.Size(143, 20);
+            this.linkKryptonBreadCrumb.Size = new System.Drawing.Size(201, 29);
             this.linkKryptonBreadCrumb.StateCommon.AdjacentGap = 5;
             this.linkKryptonBreadCrumb.TabIndex = 21;
             this.linkKryptonBreadCrumb.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonBreadCrumb.Values.Image")));
@@ -481,7 +483,7 @@
             this.linkKryptonNumericUpDown.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonNumericUpDown.Location = new System.Drawing.Point(159, 135);
             this.linkKryptonNumericUpDown.Name = "linkKryptonNumericUpDown";
-            this.linkKryptonNumericUpDown.Size = new System.Drawing.Size(169, 20);
+            this.linkKryptonNumericUpDown.Size = new System.Drawing.Size(239, 29);
             this.linkKryptonNumericUpDown.StateCommon.AdjacentGap = 5;
             this.linkKryptonNumericUpDown.TabIndex = 19;
             this.linkKryptonNumericUpDown.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonNumericUpDown.Values.Image")));
@@ -494,7 +496,7 @@
             this.linkKryptonCommand.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonCommand.Location = new System.Drawing.Point(334, 177);
             this.linkKryptonCommand.Name = "linkKryptonCommand";
-            this.linkKryptonCommand.Size = new System.Drawing.Size(131, 20);
+            this.linkKryptonCommand.Size = new System.Drawing.Size(183, 29);
             this.linkKryptonCommand.StateCommon.AdjacentGap = 5;
             this.linkKryptonCommand.TabIndex = 34;
             this.linkKryptonCommand.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonCommand.Values.Image")));
@@ -507,7 +509,7 @@
             this.linkKryptonCheckedListBox.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonCheckedListBox.Location = new System.Drawing.Point(159, 30);
             this.linkKryptonCheckedListBox.Name = "linkKryptonCheckedListBox";
-            this.linkKryptonCheckedListBox.Size = new System.Drawing.Size(160, 20);
+            this.linkKryptonCheckedListBox.Size = new System.Drawing.Size(226, 29);
             this.linkKryptonCheckedListBox.StateCommon.AdjacentGap = 5;
             this.linkKryptonCheckedListBox.TabIndex = 14;
             this.linkKryptonCheckedListBox.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonCheckedListBox.Values.Image")));
@@ -520,7 +522,7 @@
             this.linkKryptonListBox.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonListBox.Location = new System.Drawing.Point(159, 9);
             this.linkKryptonListBox.Name = "linkKryptonListBox";
-            this.linkKryptonListBox.Size = new System.Drawing.Size(113, 20);
+            this.linkKryptonListBox.Size = new System.Drawing.Size(156, 29);
             this.linkKryptonListBox.StateCommon.AdjacentGap = 5;
             this.linkKryptonListBox.TabIndex = 13;
             this.linkKryptonListBox.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonListBox.Values.Image")));
@@ -533,7 +535,7 @@
             this.linkKryptonColorButton.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonColorButton.Location = new System.Drawing.Point(4, 72);
             this.linkKryptonColorButton.Name = "linkKryptonColorButton";
-            this.linkKryptonColorButton.Size = new System.Drawing.Size(141, 20);
+            this.linkKryptonColorButton.Size = new System.Drawing.Size(197, 29);
             this.linkKryptonColorButton.StateCommon.AdjacentGap = 5;
             this.linkKryptonColorButton.TabIndex = 3;
             this.linkKryptonColorButton.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonColorButton.Values.Image")));
@@ -546,7 +548,7 @@
             this.linkKryptonDropButton.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonDropButton.Location = new System.Drawing.Point(4, 51);
             this.linkKryptonDropButton.Name = "linkKryptonDropButton";
-            this.linkKryptonDropButton.Size = new System.Drawing.Size(139, 20);
+            this.linkKryptonDropButton.Size = new System.Drawing.Size(194, 29);
             this.linkKryptonDropButton.StateCommon.AdjacentGap = 5;
             this.linkKryptonDropButton.TabIndex = 2;
             this.linkKryptonDropButton.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonDropButton.Values.Image")));
@@ -559,7 +561,7 @@
             this.linkKryptonMaskedTextBox.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonMaskedTextBox.Location = new System.Drawing.Point(159, 72);
             this.linkKryptonMaskedTextBox.Name = "linkKryptonMaskedTextBox";
-            this.linkKryptonMaskedTextBox.Size = new System.Drawing.Size(160, 20);
+            this.linkKryptonMaskedTextBox.Size = new System.Drawing.Size(226, 29);
             this.linkKryptonMaskedTextBox.StateCommon.AdjacentGap = 5;
             this.linkKryptonMaskedTextBox.TabIndex = 16;
             this.linkKryptonMaskedTextBox.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonMaskedTextBox.Values.Image")));
@@ -572,7 +574,7 @@
             this.linkKryptonContextMenu.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonContextMenu.Location = new System.Drawing.Point(4, 240);
             this.linkKryptonContextMenu.Name = "linkKryptonContextMenu";
-            this.linkKryptonContextMenu.Size = new System.Drawing.Size(149, 20);
+            this.linkKryptonContextMenu.Size = new System.Drawing.Size(209, 29);
             this.linkKryptonContextMenu.StateCommon.AdjacentGap = 5;
             this.linkKryptonContextMenu.TabIndex = 11;
             this.linkKryptonContextMenu.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonContextMenu.Values.Image")));
@@ -585,7 +587,7 @@
             this.linkKryptonRichTextBox.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonRichTextBox.Location = new System.Drawing.Point(159, 93);
             this.linkKryptonRichTextBox.Name = "linkKryptonRichTextBox";
-            this.linkKryptonRichTextBox.Size = new System.Drawing.Size(141, 20);
+            this.linkKryptonRichTextBox.Size = new System.Drawing.Size(197, 29);
             this.linkKryptonRichTextBox.StateCommon.AdjacentGap = 5;
             this.linkKryptonRichTextBox.TabIndex = 17;
             this.linkKryptonRichTextBox.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonRichTextBox.Values.Image")));
@@ -598,7 +600,7 @@
             this.linkKryptonComboBox.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonComboBox.Location = new System.Drawing.Point(159, 114);
             this.linkKryptonComboBox.Name = "linkKryptonComboBox";
-            this.linkKryptonComboBox.Size = new System.Drawing.Size(135, 20);
+            this.linkKryptonComboBox.Size = new System.Drawing.Size(188, 29);
             this.linkKryptonComboBox.StateCommon.AdjacentGap = 5;
             this.linkKryptonComboBox.TabIndex = 18;
             this.linkKryptonComboBox.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonComboBox.Values.Image")));
@@ -611,7 +613,7 @@
             this.linkKryptonTextBox.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonTextBox.Location = new System.Drawing.Point(159, 51);
             this.linkKryptonTextBox.Name = "linkKryptonTextBox";
-            this.linkKryptonTextBox.Size = new System.Drawing.Size(117, 20);
+            this.linkKryptonTextBox.Size = new System.Drawing.Size(162, 29);
             this.linkKryptonTextBox.StateCommon.AdjacentGap = 5;
             this.linkKryptonTextBox.TabIndex = 15;
             this.linkKryptonTextBox.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonTextBox.Values.Image")));
@@ -624,7 +626,7 @@
             this.linkKryptonDataGridView.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonDataGridView.Location = new System.Drawing.Point(159, 240);
             this.linkKryptonDataGridView.Name = "linkKryptonDataGridView";
-            this.linkKryptonDataGridView.Size = new System.Drawing.Size(149, 20);
+            this.linkKryptonDataGridView.Size = new System.Drawing.Size(210, 29);
             this.linkKryptonDataGridView.StateCommon.AdjacentGap = 5;
             this.linkKryptonDataGridView.TabIndex = 24;
             this.linkKryptonDataGridView.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonDataGridView.Values.Image")));
@@ -637,7 +639,7 @@
             this.linkKryptonRadioButton.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonRadioButton.Location = new System.Drawing.Point(4, 135);
             this.linkKryptonRadioButton.Name = "linkKryptonRadioButton";
-            this.linkKryptonRadioButton.Size = new System.Drawing.Size(143, 20);
+            this.linkKryptonRadioButton.Size = new System.Drawing.Size(200, 29);
             this.linkKryptonRadioButton.StateCommon.AdjacentGap = 5;
             this.linkKryptonRadioButton.TabIndex = 6;
             this.linkKryptonRadioButton.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonRadioButton.Values.Image")));
@@ -650,7 +652,7 @@
             this.linkKryptonCheckBox.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonCheckBox.Location = new System.Drawing.Point(4, 114);
             this.linkKryptonCheckBox.Name = "linkKryptonCheckBox";
-            this.linkKryptonCheckBox.Size = new System.Drawing.Size(128, 20);
+            this.linkKryptonCheckBox.Size = new System.Drawing.Size(178, 29);
             this.linkKryptonCheckBox.StateCommon.AdjacentGap = 5;
             this.linkKryptonCheckBox.TabIndex = 5;
             this.linkKryptonCheckBox.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonCheckBox.Values.Image")));
@@ -663,7 +665,7 @@
             this.linkKryptonBorderEdge.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonBorderEdge.Location = new System.Drawing.Point(334, 9);
             this.linkKryptonBorderEdge.Name = "linkKryptonBorderEdge";
-            this.linkKryptonBorderEdge.Size = new System.Drawing.Size(139, 20);
+            this.linkKryptonBorderEdge.Size = new System.Drawing.Size(194, 29);
             this.linkKryptonBorderEdge.StateCommon.AdjacentGap = 5;
             this.linkKryptonBorderEdge.TabIndex = 26;
             this.linkKryptonBorderEdge.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonBorderEdge.Values.Image")));
@@ -676,7 +678,7 @@
             this.linkKryptonForm.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonForm.Location = new System.Drawing.Point(334, 262);
             this.linkKryptonForm.Name = "linkKryptonForm";
-            this.linkKryptonForm.Size = new System.Drawing.Size(103, 20);
+            this.linkKryptonForm.Size = new System.Drawing.Size(141, 29);
             this.linkKryptonForm.StateCommon.AdjacentGap = 5;
             this.linkKryptonForm.TabIndex = 38;
             this.linkKryptonForm.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonForm.Values.Image")));
@@ -689,7 +691,7 @@
             this.linkKryptonCheckSet.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonCheckSet.Location = new System.Drawing.Point(4, 93);
             this.linkKryptonCheckSet.Name = "linkKryptonCheckSet";
-            this.linkKryptonCheckSet.Size = new System.Drawing.Size(125, 20);
+            this.linkKryptonCheckSet.Size = new System.Drawing.Size(173, 29);
             this.linkKryptonCheckSet.StateCommon.AdjacentGap = 5;
             this.linkKryptonCheckSet.TabIndex = 4;
             this.linkKryptonCheckSet.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonCheckSet.Values.Image")));
@@ -702,7 +704,7 @@
             this.linkKryptonCheckButton.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonCheckButton.Location = new System.Drawing.Point(4, 30);
             this.linkKryptonCheckButton.Name = "linkKryptonCheckButton";
-            this.linkKryptonCheckButton.Size = new System.Drawing.Size(144, 20);
+            this.linkKryptonCheckButton.Size = new System.Drawing.Size(203, 29);
             this.linkKryptonCheckButton.StateCommon.AdjacentGap = 5;
             this.linkKryptonCheckButton.TabIndex = 1;
             this.linkKryptonCheckButton.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonCheckButton.Values.Image")));
@@ -715,7 +717,7 @@
             this.linkKryptonLinkLabel.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonLinkLabel.Location = new System.Drawing.Point(4, 177);
             this.linkKryptonLinkLabel.Name = "linkKryptonLinkLabel";
-            this.linkKryptonLinkLabel.Size = new System.Drawing.Size(125, 20);
+            this.linkKryptonLinkLabel.Size = new System.Drawing.Size(174, 29);
             this.linkKryptonLinkLabel.StateCommon.AdjacentGap = 5;
             this.linkKryptonLinkLabel.TabIndex = 8;
             this.linkKryptonLinkLabel.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonLinkLabel.Values.Image")));
@@ -728,7 +730,7 @@
             this.linkKryptonSplitContainer.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonSplitContainer.Location = new System.Drawing.Point(4, 219);
             this.linkKryptonSplitContainer.Name = "linkKryptonSplitContainer";
-            this.linkKryptonSplitContainer.Size = new System.Drawing.Size(152, 20);
+            this.linkKryptonSplitContainer.Size = new System.Drawing.Size(214, 29);
             this.linkKryptonSplitContainer.StateCommon.AdjacentGap = 5;
             this.linkKryptonSplitContainer.TabIndex = 10;
             this.linkKryptonSplitContainer.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonSplitContainer.Values.Image")));
@@ -741,7 +743,7 @@
             this.linkKryptonPanel.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonPanel.Location = new System.Drawing.Point(334, 51);
             this.linkKryptonPanel.Name = "linkKryptonPanel";
-            this.linkKryptonPanel.Size = new System.Drawing.Size(104, 20);
+            this.linkKryptonPanel.Size = new System.Drawing.Size(143, 29);
             this.linkKryptonPanel.StateCommon.AdjacentGap = 5;
             this.linkKryptonPanel.TabIndex = 28;
             this.linkKryptonPanel.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonPanel.Values.Image")));
@@ -754,7 +756,7 @@
             this.linkKryptonPalette.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonPalette.Location = new System.Drawing.Point(334, 156);
             this.linkKryptonPalette.Name = "linkKryptonPalette";
-            this.linkKryptonPalette.Size = new System.Drawing.Size(112, 20);
+            this.linkKryptonPalette.Size = new System.Drawing.Size(154, 29);
             this.linkKryptonPalette.StateCommon.AdjacentGap = 5;
             this.linkKryptonPalette.TabIndex = 33;
             this.linkKryptonPalette.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonPalette.Values.Image")));
@@ -767,7 +769,7 @@
             this.linkKryptonButton.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonButton.Location = new System.Drawing.Point(4, 9);
             this.linkKryptonButton.Name = "linkKryptonButton";
-            this.linkKryptonButton.Size = new System.Drawing.Size(111, 20);
+            this.linkKryptonButton.Size = new System.Drawing.Size(153, 29);
             this.linkKryptonButton.StateCommon.AdjacentGap = 5;
             this.linkKryptonButton.TabIndex = 0;
             this.linkKryptonButton.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonButton.Values.Image")));
@@ -780,7 +782,7 @@
             this.linkKryptonLabel.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonLabel.Location = new System.Drawing.Point(4, 156);
             this.linkKryptonLabel.Name = "linkKryptonLabel";
-            this.linkKryptonLabel.Size = new System.Drawing.Size(103, 20);
+            this.linkKryptonLabel.Size = new System.Drawing.Size(141, 29);
             this.linkKryptonLabel.StateCommon.AdjacentGap = 5;
             this.linkKryptonLabel.TabIndex = 7;
             this.linkKryptonLabel.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonLabel.Values.Image")));
@@ -793,7 +795,7 @@
             this.linkKryptonGroup.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonGroup.Location = new System.Drawing.Point(334, 72);
             this.linkKryptonGroup.Name = "linkKryptonGroup";
-            this.linkKryptonGroup.Size = new System.Drawing.Size(109, 20);
+            this.linkKryptonGroup.Size = new System.Drawing.Size(150, 29);
             this.linkKryptonGroup.StateCommon.AdjacentGap = 5;
             this.linkKryptonGroup.TabIndex = 29;
             this.linkKryptonGroup.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonGroup.Values.Image")));
@@ -806,7 +808,7 @@
             this.linkKryptonHeaderGroup.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonHeaderGroup.Location = new System.Drawing.Point(334, 114);
             this.linkKryptonHeaderGroup.Name = "linkKryptonHeaderGroup";
-            this.linkKryptonHeaderGroup.Size = new System.Drawing.Size(148, 20);
+            this.linkKryptonHeaderGroup.Size = new System.Drawing.Size(209, 29);
             this.linkKryptonHeaderGroup.StateCommon.AdjacentGap = 5;
             this.linkKryptonHeaderGroup.TabIndex = 31;
             this.linkKryptonHeaderGroup.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonHeaderGroup.Values.Image")));
@@ -819,7 +821,7 @@
             this.linkKryptonHeader.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonHeader.Location = new System.Drawing.Point(334, 135);
             this.linkKryptonHeader.Name = "linkKryptonHeader";
-            this.linkKryptonHeader.Size = new System.Drawing.Size(114, 20);
+            this.linkKryptonHeader.Size = new System.Drawing.Size(158, 29);
             this.linkKryptonHeader.StateCommon.AdjacentGap = 5;
             this.linkKryptonHeader.TabIndex = 32;
             this.linkKryptonHeader.Values.Image = ((System.Drawing.Image)(resources.GetObject("linkKryptonHeader.Values.Image")));
@@ -855,7 +857,7 @@
             this.linkInputForm.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkInputForm.Location = new System.Drawing.Point(13, 9);
             this.linkInputForm.Name = "linkInputForm";
-            this.linkInputForm.Size = new System.Drawing.Size(71, 20);
+            this.linkInputForm.Size = new System.Drawing.Size(103, 29);
             this.linkInputForm.TabIndex = 0;
             this.linkInputForm.Values.Text = "Input Form";
             this.linkInputForm.LinkClicked += new System.EventHandler(this.linkInputForm_LinkClicked);
@@ -865,7 +867,7 @@
             this.linkMDIApplication.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkMDIApplication.Location = new System.Drawing.Point(13, 135);
             this.linkMDIApplication.Name = "linkMDIApplication";
-            this.linkMDIApplication.Size = new System.Drawing.Size(99, 20);
+            this.linkMDIApplication.Size = new System.Drawing.Size(145, 29);
             this.linkMDIApplication.TabIndex = 6;
             this.linkMDIApplication.Values.Text = "MDI Application";
             this.linkMDIApplication.LinkClicked += new System.EventHandler(this.linkMDIApplication_LinkClicked);
@@ -875,7 +877,7 @@
             this.linkThreePaneApplicationBasic.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkThreePaneApplicationBasic.Location = new System.Drawing.Point(13, 30);
             this.linkThreePaneApplicationBasic.Name = "linkThreePaneApplicationBasic";
-            this.linkThreePaneApplicationBasic.Size = new System.Drawing.Size(175, 20);
+            this.linkThreePaneApplicationBasic.Size = new System.Drawing.Size(259, 29);
             this.linkThreePaneApplicationBasic.TabIndex = 1;
             this.linkThreePaneApplicationBasic.Values.Text = "Three Pane Application (Basic)";
             this.linkThreePaneApplicationBasic.LinkClicked += new System.EventHandler(this.linkThreePaneApplicationBasic_LinkClicked);
@@ -885,7 +887,7 @@
             this.linkThreePaneApplicationExtended.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkThreePaneApplicationExtended.Location = new System.Drawing.Point(13, 51);
             this.linkThreePaneApplicationExtended.Name = "linkThreePaneApplicationExtended";
-            this.linkThreePaneApplicationExtended.Size = new System.Drawing.Size(198, 20);
+            this.linkThreePaneApplicationExtended.Size = new System.Drawing.Size(294, 29);
             this.linkThreePaneApplicationExtended.TabIndex = 2;
             this.linkThreePaneApplicationExtended.Values.Text = "Three Pane Application (Extended)";
             this.linkThreePaneApplicationExtended.LinkClicked += new System.EventHandler(this.linkThreePaneApplicationExtended_LinkClicked);
@@ -895,7 +897,7 @@
             this.linkCustomControlUsingRenderers.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkCustomControlUsingRenderers.Location = new System.Drawing.Point(13, 219);
             this.linkCustomControlUsingRenderers.Name = "linkCustomControlUsingRenderers";
-            this.linkCustomControlUsingRenderers.Size = new System.Drawing.Size(188, 20);
+            this.linkCustomControlUsingRenderers.Size = new System.Drawing.Size(278, 29);
             this.linkCustomControlUsingRenderers.TabIndex = 10;
             this.linkCustomControlUsingRenderers.Values.Text = "Custom Control using Renderers";
             this.linkCustomControlUsingRenderers.LinkClicked += new System.EventHandler(this.linkCustomControlUsingRenderers_LinkClicked);
@@ -905,7 +907,7 @@
             this.linkExpandingHeaderGroupsSplitters.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkExpandingHeaderGroupsSplitters.Location = new System.Drawing.Point(13, 72);
             this.linkExpandingHeaderGroupsSplitters.Name = "linkExpandingHeaderGroupsSplitters";
-            this.linkExpandingHeaderGroupsSplitters.Size = new System.Drawing.Size(205, 20);
+            this.linkExpandingHeaderGroupsSplitters.Size = new System.Drawing.Size(304, 29);
             this.linkExpandingHeaderGroupsSplitters.TabIndex = 3;
             this.linkExpandingHeaderGroupsSplitters.Values.Text = "Expanding HeaderGroups (Splitters)";
             this.linkExpandingHeaderGroupsSplitters.LinkClicked += new System.EventHandler(this.linkExpandingSplitters_LinkClicked);
@@ -915,7 +917,7 @@
             this.linkCustomControlUsingPalettes.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkCustomControlUsingPalettes.Location = new System.Drawing.Point(13, 198);
             this.linkCustomControlUsingPalettes.Name = "linkCustomControlUsingPalettes";
-            this.linkCustomControlUsingPalettes.Size = new System.Drawing.Size(175, 20);
+            this.linkCustomControlUsingPalettes.Size = new System.Drawing.Size(260, 29);
             this.linkCustomControlUsingPalettes.TabIndex = 9;
             this.linkCustomControlUsingPalettes.Values.Text = "Custom Control using Palettes";
             this.linkCustomControlUsingPalettes.LinkClicked += new System.EventHandler(this.linkCustomControlUsingPalettes_LinkClicked);
@@ -925,7 +927,7 @@
             this.linkLabelButtonSpecPlayground.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkLabelButtonSpecPlayground.Location = new System.Drawing.Point(13, 177);
             this.linkLabelButtonSpecPlayground.Name = "linkLabelButtonSpecPlayground";
-            this.linkLabelButtonSpecPlayground.Size = new System.Drawing.Size(139, 20);
+            this.linkLabelButtonSpecPlayground.Size = new System.Drawing.Size(205, 29);
             this.linkLabelButtonSpecPlayground.TabIndex = 8;
             this.linkLabelButtonSpecPlayground.Values.Text = "ButtonSpec Playground";
             this.linkLabelButtonSpecPlayground.LinkClicked += new System.EventHandler(this.linkLabelButtonSpecPlayground_LinkClicked);
@@ -935,7 +937,7 @@
             this.linkExpandingHeaderGroupsDockStyle.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkExpandingHeaderGroupsDockStyle.Location = new System.Drawing.Point(13, 93);
             this.linkExpandingHeaderGroupsDockStyle.Name = "linkExpandingHeaderGroupsDockStyle";
-            this.linkExpandingHeaderGroupsDockStyle.Size = new System.Drawing.Size(215, 20);
+            this.linkExpandingHeaderGroupsDockStyle.Size = new System.Drawing.Size(319, 29);
             this.linkExpandingHeaderGroupsDockStyle.TabIndex = 4;
             this.linkExpandingHeaderGroupsDockStyle.Values.Text = "Expanding HeaderGroups (DockStyle)";
             this.linkExpandingHeaderGroupsDockStyle.LinkClicked += new System.EventHandler(this.linkExpandingDockStyle_LinkClicked);
@@ -945,7 +947,7 @@
             this.linkChildControlStack.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkChildControlStack.Location = new System.Drawing.Point(13, 156);
             this.linkChildControlStack.Name = "linkChildControlStack";
-            this.linkChildControlStack.Size = new System.Drawing.Size(115, 20);
+            this.linkChildControlStack.Size = new System.Drawing.Size(169, 29);
             this.linkChildControlStack.TabIndex = 7;
             this.linkChildControlStack.Values.Text = "Child Control Stack";
             this.linkChildControlStack.LinkClicked += new System.EventHandler(this.linkChildControlStack_LinkClicked);
@@ -955,7 +957,7 @@
             this.linkExpandingHeaderStack.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkExpandingHeaderStack.Location = new System.Drawing.Point(13, 114);
             this.linkExpandingHeaderStack.Name = "linkExpandingHeaderStack";
-            this.linkExpandingHeaderStack.Size = new System.Drawing.Size(190, 20);
+            this.linkExpandingHeaderStack.Size = new System.Drawing.Size(281, 29);
             this.linkExpandingHeaderStack.TabIndex = 5;
             this.linkExpandingHeaderStack.Values.Text = "Expanding HeaderGroups (Stack)";
             this.linkExpandingHeaderStack.LinkClicked += new System.EventHandler(this.linkExpandingHeaderStack_LinkClicked);
@@ -965,7 +967,7 @@
             this.labeToolkitPage.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.labeToolkitPage.Location = new System.Drawing.Point(12, 12);
             this.labeToolkitPage.Name = "labeToolkitPage";
-            this.labeToolkitPage.Size = new System.Drawing.Size(295, 28);
+            this.labeToolkitPage.Size = new System.Drawing.Size(439, 41);
             this.labeToolkitPage.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeToolkitPage.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labeToolkitPage.TabIndex = 1;
@@ -988,7 +990,7 @@
             this.kryptonPageDocking.LastVisibleSet = true;
             this.kryptonPageDocking.MinimumSize = new System.Drawing.Size(50, 50);
             this.kryptonPageDocking.Name = "kryptonPageDocking";
-            this.kryptonPageDocking.Size = new System.Drawing.Size(527, 384);
+            this.kryptonPageDocking.Size = new System.Drawing.Size(478, 384);
             this.kryptonPageDocking.Text = "Docking";
             this.kryptonPageDocking.TextDescription = "";
             this.kryptonPageDocking.TextTitle = "";
@@ -1000,7 +1002,7 @@
             this.linkExternalDragToDocking.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkExternalDragToDocking.Location = new System.Drawing.Point(20, 159);
             this.linkExternalDragToDocking.Name = "linkExternalDragToDocking";
-            this.linkExternalDragToDocking.Size = new System.Drawing.Size(149, 20);
+            this.linkExternalDragToDocking.Size = new System.Drawing.Size(220, 29);
             this.linkExternalDragToDocking.TabIndex = 5;
             this.linkExternalDragToDocking.Values.Text = "External Drag To Docking";
             this.linkExternalDragToDocking.LinkClicked += new System.EventHandler(this.linkExternalDragToDocking_LinkClicked);
@@ -1010,7 +1012,7 @@
             this.linkNavigatorAndFloatingWindows.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorAndFloatingWindows.Location = new System.Drawing.Point(225, 96);
             this.linkNavigatorAndFloatingWindows.Name = "linkNavigatorAndFloatingWindows";
-            this.linkNavigatorAndFloatingWindows.Size = new System.Drawing.Size(174, 20);
+            this.linkNavigatorAndFloatingWindows.Size = new System.Drawing.Size(257, 29);
             this.linkNavigatorAndFloatingWindows.TabIndex = 7;
             this.linkNavigatorAndFloatingWindows.Values.Text = "Navigator + FloatingWindows";
             this.linkNavigatorAndFloatingWindows.LinkClicked += new System.EventHandler(this.linkNavigatorAndFloatingWindows_LinkClicked);
@@ -1020,7 +1022,7 @@
             this.linkDockingCustomized.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkDockingCustomized.Location = new System.Drawing.Point(20, 75);
             this.linkDockingCustomized.Name = "linkDockingCustomized";
-            this.linkDockingCustomized.Size = new System.Drawing.Size(123, 20);
+            this.linkDockingCustomized.Size = new System.Drawing.Size(182, 29);
             this.linkDockingCustomized.TabIndex = 1;
             this.linkDockingCustomized.Values.Text = "Docking Customized";
             this.linkDockingCustomized.LinkClicked += new System.EventHandler(this.linkDockingCustomized_LinkClicked);
@@ -1030,7 +1032,7 @@
             this.linkDockingFlags.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkDockingFlags.Location = new System.Drawing.Point(20, 117);
             this.linkDockingFlags.Name = "linkDockingFlags";
-            this.linkDockingFlags.Size = new System.Drawing.Size(87, 20);
+            this.linkDockingFlags.Size = new System.Drawing.Size(127, 29);
             this.linkDockingFlags.TabIndex = 3;
             this.linkDockingFlags.Values.Text = "Docking Flags";
             this.linkDockingFlags.LinkClicked += new System.EventHandler(this.linkDockingFlags_LinkClicked);
@@ -1040,7 +1042,7 @@
             this.linkDockingPersistence.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkDockingPersistence.Location = new System.Drawing.Point(20, 96);
             this.linkDockingPersistence.Name = "linkDockingPersistence";
-            this.linkDockingPersistence.Size = new System.Drawing.Size(120, 20);
+            this.linkDockingPersistence.Size = new System.Drawing.Size(177, 29);
             this.linkDockingPersistence.TabIndex = 2;
             this.linkDockingPersistence.Values.Text = "Docking Persistence";
             this.linkDockingPersistence.LinkClicked += new System.EventHandler(this.linkDockingPersistence_LinkClicked);
@@ -1050,7 +1052,7 @@
             this.linkMultiControlDocking.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkMultiControlDocking.Location = new System.Drawing.Point(20, 138);
             this.linkMultiControlDocking.Name = "linkMultiControlDocking";
-            this.linkMultiControlDocking.Size = new System.Drawing.Size(131, 20);
+            this.linkMultiControlDocking.Size = new System.Drawing.Size(194, 29);
             this.linkMultiControlDocking.TabIndex = 4;
             this.linkMultiControlDocking.Values.Text = "Multi Control Docking";
             this.linkMultiControlDocking.LinkClicked += new System.EventHandler(this.linkMultiControlDocking_LinkClicked);
@@ -1060,7 +1062,7 @@
             this.linkStandardDocking.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkStandardDocking.Location = new System.Drawing.Point(225, 75);
             this.linkStandardDocking.Name = "linkStandardDocking";
-            this.linkStandardDocking.Size = new System.Drawing.Size(108, 20);
+            this.linkStandardDocking.Size = new System.Drawing.Size(159, 29);
             this.linkStandardDocking.TabIndex = 6;
             this.linkStandardDocking.Values.Text = "Standard Docking";
             this.linkStandardDocking.LinkClicked += new System.EventHandler(this.linkStandardDocking_LinkClicked);
@@ -1070,7 +1072,7 @@
             this.kryptonLabel2.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.kryptonLabel2.Location = new System.Drawing.Point(220, 48);
             this.kryptonLabel2.Name = "kryptonLabel2";
-            this.kryptonLabel2.Size = new System.Drawing.Size(133, 20);
+            this.kryptonLabel2.Size = new System.Drawing.Size(197, 29);
             this.kryptonLabel2.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.kryptonLabel2.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.kryptonLabel2.TabIndex = 6;
@@ -1081,7 +1083,7 @@
             this.kryptonLabel3.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.kryptonLabel3.Location = new System.Drawing.Point(15, 48);
             this.kryptonLabel3.Name = "kryptonLabel3";
-            this.kryptonLabel3.Size = new System.Drawing.Size(145, 20);
+            this.kryptonLabel3.Size = new System.Drawing.Size(214, 29);
             this.kryptonLabel3.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.kryptonLabel3.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.kryptonLabel3.TabIndex = 7;
@@ -1092,7 +1094,7 @@
             this.kryptonLabel1.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.kryptonLabel1.Location = new System.Drawing.Point(12, 12);
             this.kryptonLabel1.Name = "kryptonLabel1";
-            this.kryptonLabel1.Size = new System.Drawing.Size(308, 28);
+            this.kryptonLabel1.Size = new System.Drawing.Size(458, 41);
             this.kryptonLabel1.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.kryptonLabel1.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.kryptonLabel1.TabIndex = 8;
@@ -1127,7 +1129,7 @@
             this.linkCellMaximizeAndRestore.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkCellMaximizeAndRestore.Location = new System.Drawing.Point(20, 138);
             this.linkCellMaximizeAndRestore.Name = "linkCellMaximizeAndRestore";
-            this.linkCellMaximizeAndRestore.Size = new System.Drawing.Size(142, 20);
+            this.linkCellMaximizeAndRestore.Size = new System.Drawing.Size(210, 29);
             this.linkCellMaximizeAndRestore.TabIndex = 4;
             this.linkCellMaximizeAndRestore.Values.Text = "Cell Maximize + Restore";
             this.linkCellMaximizeAndRestore.LinkClicked += new System.EventHandler(this.linkCellMaximizeAndRestore_LinkClicked);
@@ -1137,7 +1139,7 @@
             this.linkWorkspacePersistence.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkWorkspacePersistence.Location = new System.Drawing.Point(20, 117);
             this.linkWorkspacePersistence.Name = "linkWorkspacePersistence";
-            this.linkWorkspacePersistence.Size = new System.Drawing.Size(135, 20);
+            this.linkWorkspacePersistence.Size = new System.Drawing.Size(199, 29);
             this.linkWorkspacePersistence.TabIndex = 3;
             this.linkWorkspacePersistence.Values.Text = "Workspace Persistence";
             this.linkWorkspacePersistence.LinkClicked += new System.EventHandler(this.linkWorkspacePersistence_LinkClicked);
@@ -1147,7 +1149,7 @@
             this.linkWorkspaceMemoEditor.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkWorkspaceMemoEditor.Location = new System.Drawing.Point(225, 96);
             this.linkWorkspaceMemoEditor.Name = "linkWorkspaceMemoEditor";
-            this.linkWorkspaceMemoEditor.Size = new System.Drawing.Size(82, 20);
+            this.linkWorkspaceMemoEditor.Size = new System.Drawing.Size(119, 29);
             this.linkWorkspaceMemoEditor.TabIndex = 8;
             this.linkWorkspaceMemoEditor.Values.Text = "Memo Editor";
             this.linkWorkspaceMemoEditor.LinkClicked += new System.EventHandler(this.memoEditor_Clicked);
@@ -1157,7 +1159,7 @@
             this.kryptonWorkspaceRibbonNavigator.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.kryptonWorkspaceRibbonNavigator.Location = new System.Drawing.Point(225, 75);
             this.kryptonWorkspaceRibbonNavigator.Name = "kryptonWorkspaceRibbonNavigator";
-            this.kryptonWorkspaceRibbonNavigator.Size = new System.Drawing.Size(194, 20);
+            this.kryptonWorkspaceRibbonNavigator.Size = new System.Drawing.Size(288, 29);
             this.kryptonWorkspaceRibbonNavigator.TabIndex = 7;
             this.kryptonWorkspaceRibbonNavigator.Values.Text = "Ribbon + Navigator + Workspace";
             this.kryptonWorkspaceRibbonNavigator.LinkClicked += new System.EventHandler(this.linkRibbonAndNavigator_LinkClicked);
@@ -1167,7 +1169,7 @@
             this.linkAdvancedPageDragAndDrop.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkAdvancedPageDragAndDrop.Location = new System.Drawing.Point(20, 180);
             this.linkAdvancedPageDragAndDrop.Name = "linkAdvancedPageDragAndDrop";
-            this.linkAdvancedPageDragAndDrop.Size = new System.Drawing.Size(167, 20);
+            this.linkAdvancedPageDragAndDrop.Size = new System.Drawing.Size(248, 29);
             this.linkAdvancedPageDragAndDrop.TabIndex = 6;
             this.linkAdvancedPageDragAndDrop.Values.Text = "Advanced Page Drag + Drop";
             this.linkAdvancedPageDragAndDrop.LinkClicked += new System.EventHandler(this.linkAdvancedPageDragAndDrop_LinkClicked);
@@ -1177,7 +1179,7 @@
             this.linkBasicPageDragAndDrop.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkBasicPageDragAndDrop.Location = new System.Drawing.Point(20, 159);
             this.linkBasicPageDragAndDrop.Name = "linkBasicPageDragAndDrop";
-            this.linkBasicPageDragAndDrop.Size = new System.Drawing.Size(141, 20);
+            this.linkBasicPageDragAndDrop.Size = new System.Drawing.Size(208, 29);
             this.linkBasicPageDragAndDrop.TabIndex = 5;
             this.linkBasicPageDragAndDrop.Values.Text = "Basic Page Drag + Drop";
             this.linkBasicPageDragAndDrop.LinkClicked += new System.EventHandler(this.linkBasicPageDragAndDrop_LinkClicked);
@@ -1187,7 +1189,7 @@
             this.linkWorkspaceCellLayout.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkWorkspaceCellLayout.Location = new System.Drawing.Point(20, 96);
             this.linkWorkspaceCellLayout.Name = "linkWorkspaceCellLayout";
-            this.linkWorkspaceCellLayout.Size = new System.Drawing.Size(134, 20);
+            this.linkWorkspaceCellLayout.Size = new System.Drawing.Size(198, 29);
             this.linkWorkspaceCellLayout.TabIndex = 2;
             this.linkWorkspaceCellLayout.Values.Text = "Workspace Cell Layout";
             this.linkWorkspaceCellLayout.LinkClicked += new System.EventHandler(this.linkWorkspaceCellLayout_LinkClicked);
@@ -1197,7 +1199,7 @@
             this.linkWorkspaceCellModes.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkWorkspaceCellModes.Location = new System.Drawing.Point(20, 75);
             this.linkWorkspaceCellModes.Name = "linkWorkspaceCellModes";
-            this.linkWorkspaceCellModes.Size = new System.Drawing.Size(135, 20);
+            this.linkWorkspaceCellModes.Size = new System.Drawing.Size(199, 29);
             this.linkWorkspaceCellModes.TabIndex = 1;
             this.linkWorkspaceCellModes.Values.Text = "Workspace Cell Modes";
             this.linkWorkspaceCellModes.LinkClicked += new System.EventHandler(this.linkWorkspaceCellModes_LinkClicked);
@@ -1207,7 +1209,7 @@
             this.labelWorkspaceUsageExamples.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.labelWorkspaceUsageExamples.Location = new System.Drawing.Point(220, 48);
             this.labelWorkspaceUsageExamples.Name = "labelWorkspaceUsageExamples";
-            this.labelWorkspaceUsageExamples.Size = new System.Drawing.Size(133, 20);
+            this.labelWorkspaceUsageExamples.Size = new System.Drawing.Size(197, 29);
             this.labelWorkspaceUsageExamples.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWorkspaceUsageExamples.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelWorkspaceUsageExamples.TabIndex = 8;
@@ -1218,7 +1220,7 @@
             this.labelWorkspaceFeatureExamples.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.labelWorkspaceFeatureExamples.Location = new System.Drawing.Point(15, 48);
             this.labelWorkspaceFeatureExamples.Name = "labelWorkspaceFeatureExamples";
-            this.labelWorkspaceFeatureExamples.Size = new System.Drawing.Size(145, 20);
+            this.labelWorkspaceFeatureExamples.Size = new System.Drawing.Size(214, 29);
             this.labelWorkspaceFeatureExamples.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWorkspaceFeatureExamples.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelWorkspaceFeatureExamples.TabIndex = 9;
@@ -1229,7 +1231,7 @@
             this.labelWorkspacePage.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.labelWorkspacePage.Location = new System.Drawing.Point(12, 12);
             this.labelWorkspacePage.Name = "labelWorkspacePage";
-            this.labelWorkspacePage.Size = new System.Drawing.Size(340, 28);
+            this.labelWorkspacePage.Size = new System.Drawing.Size(507, 41);
             this.labelWorkspacePage.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWorkspacePage.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelWorkspacePage.TabIndex = 10;
@@ -1277,7 +1279,7 @@
             this.LinkNavigatorAndFloatingWindows2.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.LinkNavigatorAndFloatingWindows2.Location = new System.Drawing.Point(225, 180);
             this.LinkNavigatorAndFloatingWindows2.Name = "LinkNavigatorAndFloatingWindows2";
-            this.LinkNavigatorAndFloatingWindows2.Size = new System.Drawing.Size(174, 20);
+            this.LinkNavigatorAndFloatingWindows2.Size = new System.Drawing.Size(257, 29);
             this.LinkNavigatorAndFloatingWindows2.TabIndex = 19;
             this.LinkNavigatorAndFloatingWindows2.Values.Text = "Navigator + FloatingWindows";
             this.LinkNavigatorAndFloatingWindows2.LinkClicked += new System.EventHandler(this.linkNavigatorAndFloatingWindows_LinkClicked);
@@ -1287,7 +1289,7 @@
             this.linkNavigatorPerTabButtons.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorPerTabButtons.Location = new System.Drawing.Point(20, 201);
             this.linkNavigatorPerTabButtons.Name = "linkNavigatorPerTabButtons";
-            this.linkNavigatorPerTabButtons.Size = new System.Drawing.Size(98, 20);
+            this.linkNavigatorPerTabButtons.Size = new System.Drawing.Size(144, 29);
             this.linkNavigatorPerTabButtons.TabIndex = 7;
             this.linkNavigatorPerTabButtons.Values.Text = "Per-Tab Buttons";
             this.linkNavigatorPerTabButtons.LinkClicked += new System.EventHandler(this.linkNavigatorPerTabButtons_LinkClicked);
@@ -1297,7 +1299,7 @@
             this.linkAdvancedNavigatorDragDrop.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkAdvancedNavigatorDragDrop.Location = new System.Drawing.Point(20, 305);
             this.linkAdvancedNavigatorDragDrop.Name = "linkAdvancedNavigatorDragDrop";
-            this.linkAdvancedNavigatorDragDrop.Size = new System.Drawing.Size(167, 20);
+            this.linkAdvancedNavigatorDragDrop.Size = new System.Drawing.Size(248, 29);
             this.linkAdvancedNavigatorDragDrop.TabIndex = 12;
             this.linkAdvancedNavigatorDragDrop.Values.Text = "Advanced Page Drag + Drop";
             this.linkAdvancedNavigatorDragDrop.LinkClicked += new System.EventHandler(this.linkAdvancedPageDragAndDrop_LinkClicked);
@@ -1307,7 +1309,7 @@
             this.linkBasicNavigatorDragDrop.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkBasicNavigatorDragDrop.Location = new System.Drawing.Point(20, 284);
             this.linkBasicNavigatorDragDrop.Name = "linkBasicNavigatorDragDrop";
-            this.linkBasicNavigatorDragDrop.Size = new System.Drawing.Size(141, 20);
+            this.linkBasicNavigatorDragDrop.Size = new System.Drawing.Size(208, 29);
             this.linkBasicNavigatorDragDrop.TabIndex = 11;
             this.linkBasicNavigatorDragDrop.Values.Text = "Basic Page Drag + Drop";
             this.linkBasicNavigatorDragDrop.LinkClicked += new System.EventHandler(this.linkBasicPageDragAndDrop_LinkClicked);
@@ -1317,7 +1319,7 @@
             this.linkNavigatorContextMenus.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorContextMenus.Location = new System.Drawing.Point(20, 242);
             this.linkNavigatorContextMenus.Name = "linkNavigatorContextMenus";
-            this.linkNavigatorContextMenus.Size = new System.Drawing.Size(150, 20);
+            this.linkNavigatorContextMenus.Size = new System.Drawing.Size(222, 29);
             this.linkNavigatorContextMenus.TabIndex = 9;
             this.linkNavigatorContextMenus.Values.Text = "Navigator Context Menus";
             this.linkNavigatorContextMenus.LinkClicked += new System.EventHandler(this.linkNavigatorContextMenus_LinkClicked);
@@ -1327,7 +1329,7 @@
             this.linkNavigatorTooltips.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorTooltips.Location = new System.Drawing.Point(20, 221);
             this.linkNavigatorTooltips.Name = "linkNavigatorTooltips";
-            this.linkNavigatorTooltips.Size = new System.Drawing.Size(114, 20);
+            this.linkNavigatorTooltips.Size = new System.Drawing.Size(167, 29);
             this.linkNavigatorTooltips.TabIndex = 8;
             this.linkNavigatorTooltips.Values.Text = "Navigator ToolTips";
             this.linkNavigatorTooltips.LinkClicked += new System.EventHandler(this.linkNavigatorTooltips_LinkClicked);
@@ -1337,7 +1339,7 @@
             this.linkExpandingPages.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkExpandingPages.Location = new System.Drawing.Point(225, 159);
             this.linkExpandingPages.Name = "linkExpandingPages";
-            this.linkExpandingPages.Size = new System.Drawing.Size(103, 20);
+            this.linkExpandingPages.Size = new System.Drawing.Size(151, 29);
             this.linkExpandingPages.TabIndex = 18;
             this.linkExpandingPages.Values.Text = "Expanding Pages";
             this.linkExpandingPages.LinkClicked += new System.EventHandler(this.linkExpandingPages_LinkClicked);
@@ -1347,7 +1349,7 @@
             this.linkNavigatorPopupPages.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorPopupPages.Location = new System.Drawing.Point(20, 180);
             this.linkNavigatorPopupPages.Name = "linkNavigatorPopupPages";
-            this.linkNavigatorPopupPages.Size = new System.Drawing.Size(82, 20);
+            this.linkNavigatorPopupPages.Size = new System.Drawing.Size(119, 29);
             this.linkNavigatorPopupPages.TabIndex = 6;
             this.linkNavigatorPopupPages.Values.Text = "Popup Pages";
             this.linkNavigatorPopupPages.LinkClicked += new System.EventHandler(this.linkNavigatorPopupPages_LinkClicked);
@@ -1357,7 +1359,7 @@
             this.linkNavigatorAndRibbon.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorAndRibbon.Location = new System.Drawing.Point(225, 138);
             this.linkNavigatorAndRibbon.Name = "linkNavigatorAndRibbon";
-            this.linkNavigatorAndRibbon.Size = new System.Drawing.Size(194, 20);
+            this.linkNavigatorAndRibbon.Size = new System.Drawing.Size(288, 29);
             this.linkNavigatorAndRibbon.TabIndex = 17;
             this.linkNavigatorAndRibbon.Values.Text = "Ribbon + Navigator + Workspace";
             this.linkNavigatorAndRibbon.LinkClicked += new System.EventHandler(this.linkRibbonAndNavigator_LinkClicked);
@@ -1367,7 +1369,7 @@
             this.linkSinglelineAndMultiline.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkSinglelineAndMultiline.Location = new System.Drawing.Point(20, 138);
             this.linkSinglelineAndMultiline.Name = "linkSinglelineAndMultiline";
-            this.linkSinglelineAndMultiline.Size = new System.Drawing.Size(126, 20);
+            this.linkSinglelineAndMultiline.Size = new System.Drawing.Size(186, 29);
             this.linkSinglelineAndMultiline.TabIndex = 4;
             this.linkSinglelineAndMultiline.Values.Text = "Singleline + Multiline";
             this.linkSinglelineAndMultiline.LinkClicked += new System.EventHandler(this.linkSinglelineAndMultiline_LinkClicked);
@@ -1377,7 +1379,7 @@
             this.linkTabBorderStyles.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkTabBorderStyles.Location = new System.Drawing.Point(20, 159);
             this.linkTabBorderStyles.Name = "linkTabBorderStyles";
-            this.linkTabBorderStyles.Size = new System.Drawing.Size(105, 20);
+            this.linkTabBorderStyles.Size = new System.Drawing.Size(155, 29);
             this.linkTabBorderStyles.TabIndex = 5;
             this.linkTabBorderStyles.Values.Text = "Tab Border Styles";
             this.linkTabBorderStyles.LinkClicked += new System.EventHandler(this.linkTabBorderStyles_LinkClicked);
@@ -1387,7 +1389,7 @@
             this.linkNavigatorOutlookMockup.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorOutlookMockup.Location = new System.Drawing.Point(225, 117);
             this.linkNavigatorOutlookMockup.Name = "linkNavigatorOutlookMockup";
-            this.linkNavigatorOutlookMockup.Size = new System.Drawing.Size(102, 20);
+            this.linkNavigatorOutlookMockup.Size = new System.Drawing.Size(150, 29);
             this.linkNavigatorOutlookMockup.TabIndex = 16;
             this.linkNavigatorOutlookMockup.Values.Text = "Outlook Mockup";
             this.linkNavigatorOutlookMockup.LinkClicked += new System.EventHandler(this.linkNavigatorOutlookMockup_LinkClicked);
@@ -1397,7 +1399,7 @@
             this.linkNavigatorOneNoteTabs.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorOneNoteTabs.Location = new System.Drawing.Point(225, 96);
             this.linkNavigatorOneNoteTabs.Name = "linkNavigatorOneNoteTabs";
-            this.linkNavigatorOneNoteTabs.Size = new System.Drawing.Size(89, 20);
+            this.linkNavigatorOneNoteTabs.Size = new System.Drawing.Size(130, 29);
             this.linkNavigatorOneNoteTabs.TabIndex = 15;
             this.linkNavigatorOneNoteTabs.Values.Text = "OneNote Tabs";
             this.linkNavigatorOneNoteTabs.LinkClicked += new System.EventHandler(this.linkNavigatorOneNoteTabs_LinkClicked);
@@ -1407,7 +1409,7 @@
             this.linkNavigatorPalettes.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorPalettes.Location = new System.Drawing.Point(20, 96);
             this.linkNavigatorPalettes.Name = "linkNavigatorPalettes";
-            this.linkNavigatorPalettes.Size = new System.Drawing.Size(110, 20);
+            this.linkNavigatorPalettes.Size = new System.Drawing.Size(162, 29);
             this.linkNavigatorPalettes.TabIndex = 2;
             this.linkNavigatorPalettes.Values.Text = "Navigator Palettes";
             this.linkNavigatorPalettes.LinkClicked += new System.EventHandler(this.linkNavigatorPalettes_LinkClicked);
@@ -1417,7 +1419,7 @@
             this.linkOrientationAndAlignment.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkOrientationAndAlignment.Location = new System.Drawing.Point(20, 117);
             this.linkOrientationAndAlignment.Name = "linkOrientationAndAlignment";
-            this.linkOrientationAndAlignment.Size = new System.Drawing.Size(144, 20);
+            this.linkOrientationAndAlignment.Size = new System.Drawing.Size(213, 29);
             this.linkOrientationAndAlignment.TabIndex = 3;
             this.linkOrientationAndAlignment.Values.Text = "Orientation + Alignment";
             this.linkOrientationAndAlignment.LinkClicked += new System.EventHandler(this.linkOrientationAndAlignment_LinkClicked);
@@ -1427,7 +1429,7 @@
             this.labelNavigatorUsageExamples.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.labelNavigatorUsageExamples.Location = new System.Drawing.Point(220, 48);
             this.labelNavigatorUsageExamples.Name = "labelNavigatorUsageExamples";
-            this.labelNavigatorUsageExamples.Size = new System.Drawing.Size(133, 20);
+            this.labelNavigatorUsageExamples.Size = new System.Drawing.Size(197, 29);
             this.labelNavigatorUsageExamples.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNavigatorUsageExamples.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelNavigatorUsageExamples.TabIndex = 15;
@@ -1438,7 +1440,7 @@
             this.linkNavigatorUserPageCreation.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorUserPageCreation.Location = new System.Drawing.Point(225, 75);
             this.linkNavigatorUserPageCreation.Name = "linkNavigatorUserPageCreation";
-            this.linkNavigatorUserPageCreation.Size = new System.Drawing.Size(115, 20);
+            this.linkNavigatorUserPageCreation.Size = new System.Drawing.Size(169, 29);
             this.linkNavigatorUserPageCreation.TabIndex = 14;
             this.linkNavigatorUserPageCreation.Values.Text = "User Page Creation";
             this.linkNavigatorUserPageCreation.LinkClicked += new System.EventHandler(this.linkNavigatorUserPageCreation_LinkClicked);
@@ -1448,7 +1450,7 @@
             this.linkNavigatorBasicEvents.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorBasicEvents.Location = new System.Drawing.Point(20, 326);
             this.linkNavigatorBasicEvents.Name = "linkNavigatorBasicEvents";
-            this.linkNavigatorBasicEvents.Size = new System.Drawing.Size(76, 20);
+            this.linkNavigatorBasicEvents.Size = new System.Drawing.Size(111, 29);
             this.linkNavigatorBasicEvents.TabIndex = 13;
             this.linkNavigatorBasicEvents.Values.Text = "Basic Events";
             this.linkNavigatorBasicEvents.LinkClicked += new System.EventHandler(this.linkNavigatorBasicEvents_LinkClicked);
@@ -1458,7 +1460,7 @@
             this.linkNavigatorPlayground.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorPlayground.Location = new System.Drawing.Point(20, 263);
             this.linkNavigatorPlayground.Name = "linkNavigatorPlayground";
-            this.linkNavigatorPlayground.Size = new System.Drawing.Size(130, 20);
+            this.linkNavigatorPlayground.Size = new System.Drawing.Size(192, 29);
             this.linkNavigatorPlayground.TabIndex = 10;
             this.linkNavigatorPlayground.Values.Text = "Navigator Playground";
             this.linkNavigatorPlayground.LinkClicked += new System.EventHandler(this.linkNavigatorPlayground_LinkClicked);
@@ -1468,7 +1470,7 @@
             this.linkNavigatorModes.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkNavigatorModes.Location = new System.Drawing.Point(20, 75);
             this.linkNavigatorModes.Name = "linkNavigatorModes";
-            this.linkNavigatorModes.Size = new System.Drawing.Size(105, 20);
+            this.linkNavigatorModes.Size = new System.Drawing.Size(154, 29);
             this.linkNavigatorModes.TabIndex = 1;
             this.linkNavigatorModes.Values.Text = "Navigator Modes";
             this.linkNavigatorModes.LinkClicked += new System.EventHandler(this.linkNavigatorModes_LinkClicked);
@@ -1478,7 +1480,7 @@
             this.labelNavigatorFeatureExamples.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.labelNavigatorFeatureExamples.Location = new System.Drawing.Point(15, 48);
             this.labelNavigatorFeatureExamples.Name = "labelNavigatorFeatureExamples";
-            this.labelNavigatorFeatureExamples.Size = new System.Drawing.Size(145, 20);
+            this.labelNavigatorFeatureExamples.Size = new System.Drawing.Size(214, 29);
             this.labelNavigatorFeatureExamples.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNavigatorFeatureExamples.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelNavigatorFeatureExamples.TabIndex = 20;
@@ -1489,7 +1491,7 @@
             this.labelNavigatorPage.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.labelNavigatorPage.Location = new System.Drawing.Point(12, 12);
             this.labelNavigatorPage.Name = "labelNavigatorPage";
-            this.labelNavigatorPage.Size = new System.Drawing.Size(327, 28);
+            this.labelNavigatorPage.Size = new System.Drawing.Size(487, 41);
             this.labelNavigatorPage.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNavigatorPage.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelNavigatorPage.TabIndex = 21;
@@ -1529,7 +1531,7 @@
             this.linkRibbonMemoEditor.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkRibbonMemoEditor.Location = new System.Drawing.Point(225, 138);
             this.linkRibbonMemoEditor.Name = "linkRibbonMemoEditor";
-            this.linkRibbonMemoEditor.Size = new System.Drawing.Size(82, 20);
+            this.linkRibbonMemoEditor.Size = new System.Drawing.Size(119, 29);
             this.linkRibbonMemoEditor.TabIndex = 13;
             this.linkRibbonMemoEditor.Values.Text = "Memo Editor";
             this.linkRibbonMemoEditor.Click += new System.EventHandler(this.memoEditor_Clicked);
@@ -1539,7 +1541,7 @@
             this.linkKryptonGallery.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKryptonGallery.Location = new System.Drawing.Point(20, 243);
             this.linkKryptonGallery.Name = "linkKryptonGallery";
-            this.linkKryptonGallery.Size = new System.Drawing.Size(149, 20);
+            this.linkKryptonGallery.Size = new System.Drawing.Size(220, 29);
             this.linkKryptonGallery.TabIndex = 9;
             this.linkKryptonGallery.Values.Text = "Krypton Gallery Examples";
             this.linkKryptonGallery.LinkClicked += new System.EventHandler(this.linkKryptonGallery_LinkClicked);
@@ -1549,7 +1551,7 @@
             this.linkRibbonGallery.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkRibbonGallery.Location = new System.Drawing.Point(20, 159);
             this.linkRibbonGallery.Name = "linkRibbonGallery";
-            this.linkRibbonGallery.Size = new System.Drawing.Size(91, 20);
+            this.linkRibbonGallery.Size = new System.Drawing.Size(133, 29);
             this.linkRibbonGallery.TabIndex = 5;
             this.linkRibbonGallery.Values.Text = "Ribbon Gallery";
             this.linkRibbonGallery.LinkClicked += new System.EventHandler(this.linkRibbonGallery_LinkClicked);
@@ -1559,7 +1561,7 @@
             this.linkApplicationMenu.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkApplicationMenu.Location = new System.Drawing.Point(20, 222);
             this.linkApplicationMenu.Name = "linkApplicationMenu";
-            this.linkApplicationMenu.Size = new System.Drawing.Size(107, 20);
+            this.linkApplicationMenu.Size = new System.Drawing.Size(158, 29);
             this.linkApplicationMenu.TabIndex = 8;
             this.linkApplicationMenu.Values.Text = "Application Menu";
             this.linkApplicationMenu.LinkClicked += new System.EventHandler(this.linkApplicationMenu_LinkClicked);
@@ -1569,7 +1571,7 @@
             this.linkRibbonControls.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkRibbonControls.Location = new System.Drawing.Point(20, 201);
             this.linkRibbonControls.Name = "linkRibbonControls";
-            this.linkRibbonControls.Size = new System.Drawing.Size(99, 20);
+            this.linkRibbonControls.Size = new System.Drawing.Size(145, 29);
             this.linkRibbonControls.TabIndex = 7;
             this.linkRibbonControls.Values.Text = "Ribbon Controls";
             this.linkRibbonControls.LinkClicked += new System.EventHandler(this.linkRibbonControls_LinkClicked);
@@ -1579,7 +1581,7 @@
             this.linkRibbonToolTips.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkRibbonToolTips.Location = new System.Drawing.Point(20, 180);
             this.linkRibbonToolTips.Name = "linkRibbonToolTips";
-            this.linkRibbonToolTips.Size = new System.Drawing.Size(99, 20);
+            this.linkRibbonToolTips.Size = new System.Drawing.Size(145, 29);
             this.linkRibbonToolTips.TabIndex = 6;
             this.linkRibbonToolTips.Values.Text = "Ribbon ToolTips";
             this.linkRibbonToolTips.LinkClicked += new System.EventHandler(this.linkRibbonToolTips_LinkClicked);
@@ -1589,7 +1591,7 @@
             this.linkMDIRibbon.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkMDIRibbon.Location = new System.Drawing.Point(225, 117);
             this.linkMDIRibbon.Name = "linkMDIRibbon";
-            this.linkMDIRibbon.Size = new System.Drawing.Size(76, 20);
+            this.linkMDIRibbon.Size = new System.Drawing.Size(111, 29);
             this.linkMDIRibbon.TabIndex = 12;
             this.linkMDIRibbon.Values.Text = "MDI Ribbon";
             this.linkMDIRibbon.LinkClicked += new System.EventHandler(this.linkMDIRibbon_LinkClicked);
@@ -1599,7 +1601,7 @@
             this.linkQuickAccessToolbar.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkQuickAccessToolbar.Location = new System.Drawing.Point(20, 138);
             this.linkQuickAccessToolbar.Name = "linkQuickAccessToolbar";
-            this.linkQuickAccessToolbar.Size = new System.Drawing.Size(127, 20);
+            this.linkQuickAccessToolbar.Size = new System.Drawing.Size(187, 29);
             this.linkQuickAccessToolbar.TabIndex = 4;
             this.linkQuickAccessToolbar.Values.Text = "Quick Access Toolbar";
             this.linkQuickAccessToolbar.LinkClicked += new System.EventHandler(this.labelQuickAccessToolbar_LinkClicked);
@@ -1609,7 +1611,7 @@
             this.linkAutoShrinkingGroups.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkAutoShrinkingGroups.Location = new System.Drawing.Point(20, 117);
             this.linkAutoShrinkingGroups.Name = "linkAutoShrinkingGroups";
-            this.linkAutoShrinkingGroups.Size = new System.Drawing.Size(134, 20);
+            this.linkAutoShrinkingGroups.Size = new System.Drawing.Size(198, 29);
             this.linkAutoShrinkingGroups.TabIndex = 3;
             this.linkAutoShrinkingGroups.Values.Text = "Auto Shrinking Groups";
             this.linkAutoShrinkingGroups.LinkClicked += new System.EventHandler(this.labelAutoShrinkingGroups_LinkClicked);
@@ -1619,7 +1621,7 @@
             this.linkRibbonAndNavigator.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkRibbonAndNavigator.Location = new System.Drawing.Point(225, 96);
             this.linkRibbonAndNavigator.Name = "linkRibbonAndNavigator";
-            this.linkRibbonAndNavigator.Size = new System.Drawing.Size(194, 20);
+            this.linkRibbonAndNavigator.Size = new System.Drawing.Size(288, 29);
             this.linkRibbonAndNavigator.TabIndex = 11;
             this.linkRibbonAndNavigator.Values.Text = "Ribbon + Navigator + Workspace";
             this.linkRibbonAndNavigator.LinkClicked += new System.EventHandler(this.linkRibbonAndNavigator_LinkClicked);
@@ -1629,7 +1631,7 @@
             this.linkOutlookMailClone.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkOutlookMailClone.Location = new System.Drawing.Point(225, 75);
             this.linkOutlookMailClone.Name = "linkOutlookMailClone";
-            this.linkOutlookMailClone.Size = new System.Drawing.Size(116, 20);
+            this.linkOutlookMailClone.Size = new System.Drawing.Size(171, 29);
             this.linkOutlookMailClone.TabIndex = 10;
             this.linkOutlookMailClone.Values.Text = "Outlook Mail Clone";
             this.linkOutlookMailClone.LinkClicked += new System.EventHandler(this.linkOutlookMailClone_LinkClicked);
@@ -1639,7 +1641,7 @@
             this.linkKeyTipsTabs.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkKeyTipsTabs.Location = new System.Drawing.Point(20, 96);
             this.linkKeyTipsTabs.Name = "linkKeyTipsTabs";
-            this.linkKeyTipsTabs.Size = new System.Drawing.Size(159, 20);
+            this.linkKeyTipsTabs.Size = new System.Drawing.Size(235, 29);
             this.linkKeyTipsTabs.TabIndex = 2;
             this.linkKeyTipsTabs.Values.Text = "KeyTips + Keyboard Access";
             this.linkKeyTipsTabs.LinkClicked += new System.EventHandler(this.linkKeyTipsTabs_LinkClicked);
@@ -1649,7 +1651,7 @@
             this.linkContextualTabs.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkContextualTabs.Location = new System.Drawing.Point(20, 75);
             this.linkContextualTabs.Name = "linkContextualTabs";
-            this.linkContextualTabs.Size = new System.Drawing.Size(98, 20);
+            this.linkContextualTabs.Size = new System.Drawing.Size(144, 29);
             this.linkContextualTabs.TabIndex = 1;
             this.linkContextualTabs.Values.Text = "Contextual Tabs";
             this.linkContextualTabs.LinkClicked += new System.EventHandler(this.linkContextualTabs_LinkClicked);
@@ -1659,7 +1661,7 @@
             this.labelRibbonUsageExamples.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.labelRibbonUsageExamples.Location = new System.Drawing.Point(220, 48);
             this.labelRibbonUsageExamples.Name = "labelRibbonUsageExamples";
-            this.labelRibbonUsageExamples.Size = new System.Drawing.Size(133, 20);
+            this.labelRibbonUsageExamples.Size = new System.Drawing.Size(197, 29);
             this.labelRibbonUsageExamples.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRibbonUsageExamples.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelRibbonUsageExamples.TabIndex = 13;
@@ -1670,7 +1672,7 @@
             this.labelRibbonFeatureExamples.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.labelRibbonFeatureExamples.Location = new System.Drawing.Point(15, 48);
             this.labelRibbonFeatureExamples.Name = "labelRibbonFeatureExamples";
-            this.labelRibbonFeatureExamples.Size = new System.Drawing.Size(145, 20);
+            this.labelRibbonFeatureExamples.Size = new System.Drawing.Size(214, 29);
             this.labelRibbonFeatureExamples.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRibbonFeatureExamples.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelRibbonFeatureExamples.TabIndex = 14;
@@ -1681,7 +1683,7 @@
             this.labelRibbonPage.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.labelRibbonPage.Location = new System.Drawing.Point(12, 12);
             this.labelRibbonPage.Name = "labelRibbonPage";
-            this.labelRibbonPage.Size = new System.Drawing.Size(296, 28);
+            this.labelRibbonPage.Size = new System.Drawing.Size(440, 41);
             this.labelRibbonPage.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRibbonPage.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelRibbonPage.TabIndex = 15;
@@ -1710,7 +1712,7 @@
             this.labelApplicationsPage.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.labelApplicationsPage.Location = new System.Drawing.Point(12, 12);
             this.labelApplicationsPage.Name = "labelApplicationsPage";
-            this.labelApplicationsPage.Size = new System.Drawing.Size(242, 28);
+            this.labelApplicationsPage.Size = new System.Drawing.Size(360, 41);
             this.labelApplicationsPage.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelApplicationsPage.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelApplicationsPage.TabIndex = 2;
@@ -1721,7 +1723,7 @@
             this.labelApplications.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.labelApplications.Location = new System.Drawing.Point(15, 48);
             this.labelApplications.Name = "labelApplications";
-            this.labelApplications.Size = new System.Drawing.Size(103, 20);
+            this.labelApplications.Size = new System.Drawing.Size(152, 29);
             this.labelApplications.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelApplications.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelApplications.TabIndex = 3;
@@ -1732,7 +1734,7 @@
             this.linkPaletteDesigner.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
             this.linkPaletteDesigner.Location = new System.Drawing.Point(20, 75);
             this.linkPaletteDesigner.Name = "linkPaletteDesigner";
-            this.linkPaletteDesigner.Size = new System.Drawing.Size(100, 20);
+            this.linkPaletteDesigner.Size = new System.Drawing.Size(146, 29);
             this.linkPaletteDesigner.TabIndex = 1;
             this.linkPaletteDesigner.Values.Text = "Palette Designer";
             this.linkPaletteDesigner.LinkClicked += new System.EventHandler(this.linkPaletteDesigner_LinkClicked);
@@ -1742,9 +1744,9 @@
             this.kryptonButtonClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.kryptonButtonClose.AutoSize = true;
             this.kryptonButtonClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.kryptonButtonClose.Location = new System.Drawing.Point(580, 5);
+            this.kryptonButtonClose.Location = new System.Drawing.Point(580, -3);
             this.kryptonButtonClose.Name = "kryptonButtonClose";
-            this.kryptonButtonClose.Size = new System.Drawing.Size(74, 25);
+            this.kryptonButtonClose.Size = new System.Drawing.Size(74, 33);
             this.kryptonButtonClose.TabIndex = 0;
             this.kryptonButtonClose.Values.Text = "Close";
             this.kryptonButtonClose.Click += new System.EventHandler(this.kryptonButtonClose_Click);
@@ -1765,7 +1767,7 @@
             this.labelKryptonExplorer.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.TitleControl;
             this.labelKryptonExplorer.Location = new System.Drawing.Point(17, 54);
             this.labelKryptonExplorer.Name = "labelKryptonExplorer";
-            this.labelKryptonExplorer.Size = new System.Drawing.Size(163, 28);
+            this.labelKryptonExplorer.Size = new System.Drawing.Size(241, 41);
             this.labelKryptonExplorer.StateCommon.ShortText.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelKryptonExplorer.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.labelKryptonExplorer.TabIndex = 0;
@@ -1803,7 +1805,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(664, 542);
             this.Controls.Add(this.kryptonPanelFill);
@@ -1818,10 +1820,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanelFill)).EndInit();
             this.kryptonPanelFill.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonNavigator)).EndInit();
+            this.kryptonNavigator.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPageToolkit)).EndInit();
             this.kryptonPageToolkit.ResumeLayout(false);
             this.kryptonPageToolkit.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonNavigatorToolkit)).EndInit();
+            this.kryptonNavigatorToolkit.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPage1)).EndInit();
             this.kryptonPage1.ResumeLayout(false);
             this.kryptonPage1.PerformLayout();

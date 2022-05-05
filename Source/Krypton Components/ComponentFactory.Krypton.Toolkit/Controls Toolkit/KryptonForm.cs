@@ -657,6 +657,16 @@ namespace ComponentFactory.Krypton.Toolkit
             return (_buttonManager.GetButtonRectangle(_buttonSpecClose).Contains(pt));
         }
 
+        public bool HitTestButtonSpec(Point pt)
+        {
+            foreach (var buttonSpec in _buttonSpecs)
+            {
+                if (_buttonManager.GetButtonRectangle(buttonSpec).Contains(pt))
+                    return true;
+            }
+            return false;
+        }
+
         /// <summary>
         /// Gets and sets a rectangle to treat as a custom caption area.
         /// </summary>
