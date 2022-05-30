@@ -213,7 +213,9 @@ namespace ComponentFactory.Krypton.Docking
                     // Only interested in the mouse leave if it relates to the floating window and so ignore any
                     // message that comes from the mouse leaving the source of a drag such as a docked window or
                     // a workspace/navigator tab.
-                    if (m.HWnd == FloatingWindow.Handle)
+
+                    //RR : Added condition for when FloatingWindow is null. This randomly breaks when docking floating windows into a parent
+                    if (m.HWnd == FloatingWindow?.Handle)
                     {
                         // If mouse has left then we need to finish with docking. Most likely reason is the focus
                         // has been shifted to another application with ALT+TAB.

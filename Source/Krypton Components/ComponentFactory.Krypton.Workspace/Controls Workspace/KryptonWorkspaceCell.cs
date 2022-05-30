@@ -652,7 +652,50 @@ namespace ComponentFactory.Krypton.Workspace
             // Need to raise property changed so that the owning workspace will layout as 
             // a change in pages might cause compacting to perform extra actions.
             if (_events)
+            {
                 OnPropertyChanged("Pages");
+                
+                //RR : Sandwich specific change, if there is only 1 page on the cell we want to hide the exit button spec
+                var x = sender as KryptonPageCollection;
+                if (x?.Count == 1)
+                {
+                    var t = x[0].KryptonParentContainer as KryptonWorkspaceCell;
+                    if (t == null)
+                        return;
+
+                    if (t.Pages.Count == 1)
+                    {
+                        //t.Button.ButtonSpecs[t.Button.ButtonSpecs.Count - 1].Visible = false;
+                        t.NavigatorMode = NavigatorMode.HeaderGroup;
+                    }
+                    else
+                    { 
+                        //t.Button.ButtonSpecs[t.Button.ButtonSpecs.Count - 1].Visible = true;
+                        t.NavigatorMode = NavigatorMode.BarTabGroup;
+                    }
+                }
+                else
+                {
+                    foreach (var item in x)
+                    {
+                        var t = item.KryptonParentContainer as KryptonWorkspaceCell;
+                        if (t == null)
+                            return;
+
+                        if (t.Pages.Count == 1)
+                        {
+                            //t.Button.ButtonSpecs[t.Button.ButtonSpecs.Count - 1].Visible = false;
+                            t.NavigatorMode = NavigatorMode.HeaderGroup;
+                        }
+                        else
+                        {
+                            //t.Button.ButtonSpecs[t.Button.ButtonSpecs.Count - 1].Visible = true;
+                            t.NavigatorMode = NavigatorMode.BarTabGroup;
+                        }
+                    }
+                }
+                //end RR
+            }
         }
 
         private void OnMaximizeRestoreButtonClicked(object sender, EventArgs e)

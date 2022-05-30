@@ -1,0 +1,41 @@
+﻿<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+        .basic-area-chart {
+        }
+            .basic-area-chart > div {
+                width: 100% !important;
+                height: 100% !important;
+            }
+                .basic-area-chart > div > div {
+                    width: 100% !important;
+                    height: 100% !important;
+                }
+    </style>
+</head>
+<body>
+    <div id="tvchart" class="tvchart"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript">
+        new TradingView.widget(
+            {
+                "autosize": true,
+                "container_id": "tvchart",
+                "symbol": "{symbol}",
+                "interval": "{interval}",
+                "timezone": "Etc/UTC",
+                "theme": "light",
+                "style": "1",
+                "hide_top_toolbar": false,
+                "allow_symbol_change": false,
+                "toolbar_bg": "#f1f3f6",
+                "save_image": false,
+                "locale": "en"
+            }
+        );
+    </script>
+</body>
+</html>	

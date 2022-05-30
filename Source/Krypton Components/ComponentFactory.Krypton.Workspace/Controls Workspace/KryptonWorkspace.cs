@@ -2771,6 +2771,13 @@ namespace ComponentFactory.Krypton.Workspace
         {
             if (PageDrop != null)
                 PageDrop(this, e);
+
+            ////RR : Sandwich specific change, if there is only 1 page on the cell we want to hide the exit button spec - this doesn't seem to do anything
+            //var cell = (e.Page.Parent.Parent as KryptonWorkspaceCell);
+            //if (cell == null)
+            //    return;
+            //cell.Button.ButtonSpecs[cell.Button.ButtonSpecs.Count - 1].Visible = true;
+            ////end RR
         }
 
         /// <summary>

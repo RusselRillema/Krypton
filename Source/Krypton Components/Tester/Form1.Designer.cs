@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.kryptonPanel1 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.kryptonManager1 = new ComponentFactory.Krypton.Toolkit.KryptonManager(this.components);
-            this.dockingManager = new ComponentFactory.Krypton.Docking.KryptonDockingManager();
             this.kryptonDockableWorkspace1 = new ComponentFactory.Krypton.Docking.KryptonDockableWorkspace();
+            this.dockingManager = new ComponentFactory.Krypton.Docking.KryptonDockingManager();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).BeginInit();
             this.kryptonPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonDockableWorkspace1)).BeginInit();
@@ -41,9 +41,10 @@
             // kryptonPanel1
             // 
             this.kryptonPanel1.Controls.Add(this.kryptonDockableWorkspace1);
-            this.kryptonPanel1.Location = new System.Drawing.Point(12, 12);
+            this.kryptonPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.kryptonPanel1.Location = new System.Drawing.Point(0, 0);
             this.kryptonPanel1.Name = "kryptonPanel1";
-            this.kryptonPanel1.Size = new System.Drawing.Size(613, 425);
+            this.kryptonPanel1.Size = new System.Drawing.Size(637, 449);
             this.kryptonPanel1.TabIndex = 0;
             // 
             // kryptonDockableWorkspace1
@@ -60,7 +61,7 @@
             this.kryptonDockableWorkspace1.Root.UniqueName = "C3B8B502CCD748E2DBB97A7515A295F9";
             this.kryptonDockableWorkspace1.Root.WorkspaceControl = this.kryptonDockableWorkspace1;
             this.kryptonDockableWorkspace1.ShowMaximizeButton = false;
-            this.kryptonDockableWorkspace1.Size = new System.Drawing.Size(613, 425);
+            this.kryptonDockableWorkspace1.Size = new System.Drawing.Size(637, 449);
             this.kryptonDockableWorkspace1.TabIndex = 0;
             this.kryptonDockableWorkspace1.TabStop = true;
             // 

@@ -24,6 +24,7 @@ using System.Diagnostics;
 using ComponentFactory.Krypton.Toolkit;
 using ComponentFactory.Krypton.Navigator;
 using ComponentFactory.Krypton.Workspace;
+using System.Linq;
 
 namespace ComponentFactory.Krypton.Docking
 {
@@ -70,8 +71,11 @@ namespace ComponentFactory.Krypton.Docking
             // Set correct form settings for a floating window
             TopLevel = true;
             ShowIcon = false;
-            ShowInTaskbar = false;
-            MinimizeBox = false;
+            //RR : Sandwich specific change, we want the floating windows to have a minimize button and to show the icon in the task tray
+            //commentout
+            //ShowInTaskbar = true;
+            //MinimizeBox = true;
+            //end RR
             StartPosition = FormStartPosition.Manual;
             ButtonSpecMin.ImageStates.ImageDisabled = EMPTY_IMAGE;
 
@@ -279,28 +283,51 @@ namespace ComponentFactory.Krypton.Docking
         private void UpdateCellSettings()
         {
             KryptonWorkspaceCell cell = FloatspaceControl.FirstVisibleCell();
-            if (cell != null)
-            {
-                // If there is only a single cell inside the floating window
-                if (FloatspaceControl.CellVisibleCount <= 1)
-                {
-                    // Cell display mode depends on the number of tabs in the cell
-                    if (cell.Pages.VisibleCount == 1)
-                        cell.NavigatorMode = NavigatorMode.HeaderGroup;
-                    else
-                        cell.NavigatorMode = NavigatorMode.HeaderGroupTab;
-                }
-                else
-                {
-                    do
-                    {
-                        // With multiple cells we always need the tabs showing
-                        cell.NavigatorMode = NavigatorMode.HeaderGroupTab;
-                        cell = FloatspaceControl.NextVisibleCell(cell);
-                    }
-                    while (cell != null);
-                }
-            }
+            //commentout
+            //if (cell != null)
+            //{
+            //    // If there is only a single cell inside the floating window
+            //    if (FloatspaceControl.CellVisibleCount <= 1)
+            //    {
+            //        //RR : Sandwich specific change, we always want HeaderGroup style docking
+            //        //cell.NavigatorMode = NavigatorMode.BarTabGroup;
+            //        cell.NavigatorMode = NavigatorMode.HeaderGroup;
+            //        cell.Button.ButtonSpecs.SingleOrDefault(x => x.Type == PaletteButtonSpecStyle.Close).Visible = false;
+            //        cell.Header.HeaderVisibleBar = false;
+            //        cell.Header.HeaderVisiblePrimary = false;
+            //        cell.Header.HeaderVisibleSecondary = false;
+
+            //        if (cell.Pages.VisibleCount == 1)
+            //            this.TextExtra = cell?.Pages.FirstOrDefault()?.Text;
+            //        else
+            //            this.TextExtra = "";
+
+            //        // Cell display mode depends on the number of tabs in the cell
+            //        //if (cell.Pages.VisibleCount == 1)
+            //        //    cell.NavigatorMode = NavigatorMode.HeaderGroup;
+            //        //else
+            //        //    cell.NavigatorMode = NavigatorMode.HeaderGroupTab;
+            //        //end RR
+            //    }
+            //    else
+            //    {
+            //        this.TextExtra = "";
+            //        do
+            //        {
+            //            //RR : Sandwich specific change, we always want HeaderGroup style docking
+            //            // With multiple cells we always need the tabs showing
+            //            //cell.NavigatorMode = NavigatorMode.HeaderGroupTab;
+            //            cell.NavigatorMode = NavigatorMode.HeaderGroup;
+            //            cell.Button.ButtonSpecs.SingleOrDefault(x => x.Type == PaletteButtonSpecStyle.Close).Visible = true;
+            //            cell.Header.HeaderVisibleBar = true;
+            //            cell.Header.HeaderVisiblePrimary = true;
+            //            cell.Header.HeaderVisibleSecondary = true;
+            //            cell = FloatspaceControl.NextVisibleCell(cell);
+            //            //end RR
+            //        }
+            //        while (cell != null);
+            //    }
+            //}
 
             // Only show the floating window if there is a visible cell
             Visible = (FloatspaceControl.CellVisibleCount > 0);

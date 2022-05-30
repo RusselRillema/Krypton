@@ -501,7 +501,12 @@ namespace ComponentFactory.Krypton.Docking
                     cell.NavigatorMode = NavigatorMode.HeaderGroupTab;
 
                 cell.Bar.BarMultiline = BarMultiline.Shrinkline;
-                cell.Bar.BarOrientation = VisualOrientation.Bottom;
+                
+                //RR : Sandwich specific change as we always want the tabs to be docked at the top
+                //cell.Bar.BarOrientation = VisualOrientation.Bottom;
+                cell.Bar.BarOrientation = VisualOrientation.Top;
+                //end RR
+
                 cell.Bar.TabBorderStyle = TabBorderStyle.DockOutsize;
                 cell.Bar.TabStyle = TabStyle.Dock;
                 cell.Button.ButtonDisplayLogic = ButtonDisplayLogic.None;
